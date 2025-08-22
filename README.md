@@ -1,2 +1,17 @@
-# vehicle-price-prediction-using-ML
-This project predicts the price of used cars based on features like brand, model year, mileage, fuel type, and transmission. The workflow includes data cleaning, exploratory data analysis (EDA), feature engineering, and implementation of multiple machine learning algorithms to build an accurate predictive model.
+# Car Price Prediction
+
+Predicts used car prices from features like brand, model year, mileage, fuel type, and transmission.
+
+## What’s here
+- `quikr_car.csv` (dataset)
+- `analysis.py` (quick data preview)
+- `app.py` (Streamlit demo UI)
+- `requirements.txt`
+
+## Quick start
+```bash
+pip install -r requirements.txt
+python analysis.py
+# or
+streamlit run app.py
+
